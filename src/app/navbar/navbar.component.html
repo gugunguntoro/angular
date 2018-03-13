@@ -1,0 +1,19 @@
+<nav class="navbar">
+  <span class="logo">Blur<span class="admin">Admin</span></span>
+    <div class="toggle">
+      <a href="#" (click)="togglelights()">
+        <div class="room" [@lightsOnOff]="roomState"></div>
+      </a>
+    </div>
+    <div class="searching">
+      <a href=""><i class="fas fa-search fa-xs"></i></a>
+      <input type="text" class="search" placeholder="Search for...">
+    </div>
+
+  <div class="head">
+    <span class="text">Have questions? <a href="#">contact@akveo.com</a></span>
+    <i class="far fa-bell"></i>
+    <i class="far fa-envelope"></i>
+    <img class="foto" src="assets/images/download.jpeg" alt="">
+  </div>
+</nav>

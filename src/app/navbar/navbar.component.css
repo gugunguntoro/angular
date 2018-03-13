@@ -1,0 +1,74 @@
+.navbar {
+  height: 70px;
+  background-color: #1C2B36;
+}
+
+.logo, span {
+  color: #1F9E91;
+  font-size: 25px;
+  margin-left: 25px;
+}
+
+.admin, span {
+  color: white;
+  margin-left: 0px;
+}
+
+img {
+  margin-left: 35px;
+}
+
+
+.far, .fa-envelope, .fa-bell, i {
+  color: white;
+  margin-right: 30px;
+}
+
+.text {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+a {
+  color: #1B6C4B;
+}
+
+.search {
+  height: 30px;
+  background-color: #1C2B36;
+  border: 0px solid white;
+}
+
+input {
+  color: white;
+  font-size: 13px;
+}
+
+::placeholder {
+  font-size: 13px;
+}
+
+*:focus {
+    outline: none;
+}
+
+.foto {
+  width: 50px;
+  height: 50px;
+  margin-right: 25px;
+  border-radius: 50%;
+}
+
+.room {
+  height: 24px;
+  width: 24px;
+  background-color: #1C2B36;
+}
+
+.toggle {
+  margin-left: -190px;
+}
+
+.searching {
+  margin-left: -190px;
+}
